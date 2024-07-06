@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game</title>
+    <link rel="stylesheet" href="Assets/CSS/game.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Image/Logo-Onitama.webp">
+</head>
+<body>
+<h1 id="intro"></h1>
+<h1 id="intro2"></h1>
+<div class="main-container">
+    <div class="sidebar">
+        <div class="Buttons">
+            <button id="StartGameBtn">Start game</button>
+            <button id="leaveGameBtn">Leave game</button>
+        </div>
+        <div id="currentPlayers">
+            <p>Current players in the game:</p>
+            <label id="showPlayers"></label><br>
+            <label id="PlayerLeft"></label>
+        </div>
+    </div>
+    <div id="test">
+        <div id="Empty-Container">
+            <label id="ErrorOutput"></label>
+            <h2 id="startingPlayer"></h2>
+            <h2 id="startingPlayer2"></h2>
+        </div>
+        <div id="GameBoard-Container">
+            <div id="PlayerCards" class="CardsBundle">
+                <div id="Card1" class="Cards"></div>
+                <div id="Card2" class="Cards"></div>
+            </div>
+            <div id="Board-Container">
+                <div id="Board"></div>
+            </div>
+            <div id="OppesitePlayerCards" class="CardsBundle">
+                <div id="OppesiteCard1" class="Cards"></div>
+                <div id="OppesiteCard2" class="Cards"></div>
+            </div>
+        </div>
+        <div id="ExtraCard-Container">
+            <div id="ExtraCard" class="Cards"></div>
+            <button class="Buttons" id="skipMoveBtn">Skip move</button>
+        </div>
+    </div>
+</div>
+<script src="./Assets/JS/game.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../Image/chineeseTempel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav {
+    font-family: monospace;
+    color: white;
+    background-color: #333;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav h1 {
+    font-size: 28pt;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+nav ul {
+    margin-bottom: 20px;
+    font-size: 20pt;
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li {
+    margin-top: -15px;
+    float: left;
+    margin-left: 15px;
+
+}
+nav li a
+{
+    color: white;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: fixed;
+    top: 20%;
+    left: calc(50% - 150px);
+
+}
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"], .registerButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.registerButton {
+    text-decoration: none;
+}
+input[type="submit"]:hover, .button:hover {
+    background-color: #45a049;
+}
+#errorOutput, #emailError, #passwordError{
+    color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Register yourself</title>
+    <link href="Assets/CSS/register.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Assets/Image/Logo-Onitama.webp">
+</head>
+<body>
+<div class="background-container">
+<nav>
+    <h1>Onitama</h1>
+    <ul>
+        <li><a href="index.html" class="inloggen">Login</a> </li>
+        <li><a href="https://tesera.ru/images/items/1153041/Onitama.pdf" target="_blank">Game rules</a></li>
+        <li><a href="team.html">Our team</a></li>
+    </ul>
+</nav>
+</div>
+<form id="formulier">
+    <h1>Register yourself</h1>
+    <label for="email">E-mail:</label>
+    <input  type="email" id="email"/>
+
+    <label for="wariornaam">Username:</label>
+    <input   type="text" id="wariornaam">
+
+    <label for="wachtwoord">Password:</label>
+    <input minlength="6"  type="password" id="wachtwoord">
+
+    <label for="wachtwoordVerificatie">Password verification: </label>
+    <input minlength="6"  type="password" id="wachtwoordVerificatie">
+    <br><button id="registreerbtn">Register</button>
+    <label class="alaccount">Already have an account?</label>
+    <button id="galoginbtn">Login</button>
+    <label id="errors"></label>
+
+</form>
+
+<script src="Assets/js/register.js" type="module"></script>
+</body>
+</html>

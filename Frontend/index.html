@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Onitama</title>
+    <link rel="stylesheet" href="Assets/CSS/index.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Image/Logo-Onitama.webp">
+  </head>
+  <body>
+  <nav>
+    <h1>Onitama</h1>
+    <ul>
+      <li><a href="register.html" class="inloggen">Register</a> </li>
+      <li><a href="https://tesera.ru/images/items/1153041/Onitama.pdf" target="_blank">Game rules</a></li>
+      <li><a href="team.html">Our team</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>login</h2>
+    <div id="errorOutput"></div>
+    <form method="post">
+      <label for="username">Email: <label id="emailError"></label></label>
+      <input type="text" id="username" name="username" >
+      <label for="password">Password: <label id="passwordError"></label></label>
+      <input type="password" id="password" name="password" >
+      <input id="inlogButton" type="submit" value="Inloggen">
+      <p><br>No account yet?</p>
+      <a href="register.html" class="registerButton">Register</a>
+
+    </form>
+    <span id="test"></span>
+    <script src="./Assets/js/login.js" type="module"></script>
+  </div>
+
+
+  </body>
+</html>

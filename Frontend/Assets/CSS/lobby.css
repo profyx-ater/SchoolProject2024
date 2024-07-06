@@ -1,0 +1,129 @@
+body {
+    background-image: url("../Image/chinoTafel2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.welkom {
+    text-align: center;
+}
+
+.welkom2 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.tableDiv {
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 50px;
+}
+
+.tableDiv p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.tableDiv button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#profileButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-size: cover;
+    width: 180px;
+    height: 95px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#profileButton img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Profile */
+#profileInfo {
+    display: none;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#profileInfo p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 5%;
+    border: 5px solid burlywood;
+}
+
+#NewTableButton {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#errorOutput {
+    color: red;
+    text-align: center;
+}
+
+#logout, #gameRulesButton {
+    position: absolute;
+    top: 20px;
+}
+
+#logout {
+    right: 20px;
+    background-color: red;
+}
+
+#gameRulesButton {
+    right: 120px;
+    background-color: blue;
+}
+
+#gameRulesButton:hover {
+    background-color: #0000a0;
+}

@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("../Image/game_background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro, #intro2 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#StartGameBtn, #leaveGameBtn {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+#StartGameBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#StartGameBtn:hover {
+    background-color: #45a049;
+}
+
+#leaveGameBtn {
+    background-color: red;
+}
+
+#leaveGameBtn:hover {
+    background-color: darkred;
+}
+
+#skipMoveBtn {
+    visibility: hidden;
+}
+
+#currentPlayers {
+    border: 1px solid black;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#PlayerLeft{
+    color: red;
+}
+
+p {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+#ErrorOutput {
+    text-align: center;
+    color: red;
+}
+
+#Board {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.square {
+    border: 1px solid black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    width: 250px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.color-stamp {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.pawn {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.pawn-image {
+    width: 35px;
+    height: 48px;
+}
+
+.student {
+    border-radius: 50%;
+}
+
+#GameBoard-Container, #Empty-Container, #ExtraCard-Container {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Empty-Container {
+    align-items: end;
+}
+
+#GameBoard-Container {
+    align-items: center;
+}
+
+#ExtraCard-Container {
+    align-items: flex-start;
+}
+
+.Cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin: 5px;
+}
+
+.CardsBundle {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#test {
+    display: flex;
+    flex-direction: row;
+}

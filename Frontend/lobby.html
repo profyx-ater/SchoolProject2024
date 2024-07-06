@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lobby</title>
+    <link rel="stylesheet" href="Assets/CSS/lobby.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Image/Logo-Onitama.webp">
+</head>
+<body>
+<h1 class="welkom">Welcome <span id="inputWariorName"></span></h1>
+<h1 class="welkom2">Choose a table to join or create a new table</h1>
+
+<div class="dropdown">
+    <button id="profileButton"><img id="profileImg" src="Assets/Image/Profile.png" alt="imgProfile">Profile</button>
+    <div id="profileInfo" class="dropdown-content">
+        <div>
+            <p>Email: <span id="inputEmail"></span></p>
+        </div>
+        <div>
+            <p>Username: <span id="WarriorName"></span></p>
+        </div>
+    </div>
+</div>
+
+<button id="NewTableButton">New table</button>
+    <button id="gameRulesButton" onclick= "window.open('https://tesera.ru/images/items/1153041/Onitama.pdf','_blank');" >Game Rules</button>
+
+<button id="logout">Logout</button>
+<div id="errorOutput"></div>
+<script src="Assets/js/lobby.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f03efb2-9be0-4f0c-8290-9ca938f3782d" name="Changes" comment="Token kan nu gebruikt worden in lobbypagina">
+      <change beforePath="$PROJECT_DIR$/Backend/Onitama.Core/TableAggregate/Table.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Onitama.Core/TableAggregate/Table.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Onitama.Core/TableAggregate/TableFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Onitama.Core/TableAggregate/TableFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Onitama.Core/TableAggregate/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Onitama.Core/TableAggregate/TableManager.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fGTL7dvcycO3U5SFDHJRvBERYf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.lobby.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.register.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/khali/OneDrive/PXL/Eerst jaar/Tweede semester/Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JavaScript Debug.lobby.html">
+    <configuration name="lobby.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project/Frontend/lobby.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project/Frontend/register.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.lobby.html" />
+        <item itemvalue="JavaScript Debug.register.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f03efb2-9be0-4f0c-8290-9ca938f3782d" name="Changes" comment="" />
+      <created>1713426355333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713426355333</updated>
+      <workItem from="1713426356356" duration="980000" />
+      <workItem from="1713427394040" duration="269000" />
+      <workItem from="1713445847423" duration="325000" />
+      <workItem from="1713523662996" duration="1634000" />
+      <workItem from="1713527561174" duration="119000" />
+      <workItem from="1713527687808" duration="4127000" />
+      <workItem from="1713542110546" duration="6236000" />
+      <workItem from="1713595625563" duration="7991000" />
+      <workItem from="1713606782338" duration="5228000" />
+      <workItem from="1713613862676" duration="781000" />
+      <workItem from="1713632064457" duration="601000" />
+      <workItem from="1713691567496" duration="641000" />
+      <workItem from="1713693005801" duration="49000" />
+      <workItem from="1713704087663" duration="862000" />
+      <workItem from="1713705068776" duration="173000" />
+      <workItem from="1713705391320" duration="13000" />
+      <workItem from="1713777362907" duration="2000" />
+      <workItem from="1713781359508" duration="233000" />
+      <workItem from="1713796235945" duration="185000" />
+      <workItem from="1713796523926" duration="182000" />
+      <workItem from="1713813474154" duration="87000" />
+      <workItem from="1713813707918" duration="598000" />
+      <workItem from="1713939848324" duration="4217000" />
+    </task>
+    <task id="LOCAL-00001" summary="Teamleden opmaak geüpdatet">
+      <option name="closed" value="true" />
+      <created>1713446045947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713446045947</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Registratie is volledig afgemaakt">
+      <option name="closed" value="true" />
+      <created>1713603024156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713603024156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Registratie- en inlogpagina zijn bijgewerkt">
+      <option name="closed" value="true" />
+      <created>1713610939495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713610939495</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Een bug opgelost waar de server het wachtwoord niet krijgt">
+      <option name="closed" value="true" />
+      <created>1713611957037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713611957037</updated>
+    </task>
+    <task id="LOCAL-00005" summary="een bug opgelost">
+      <option name="closed" value="true" />
+      <created>1713611978851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713611978851</updated>
+    </task>
+    <task id="LOCAL-00006" summary="een bug opgelost">
+      <option name="closed" value="true" />
+      <created>1713614644126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713614644126</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Token kan nu gebruikt worden in lobbypagina">
+      <option name="closed" value="true" />
+      <created>1713942559854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713942559854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Teamleden opmaak geüpdatet" />
+    <MESSAGE value="Registratie is volledig afgemaakt" />
+    <MESSAGE value="Registratie- en inlogpagina zijn bijgewerkt" />
+    <MESSAGE value="Een bug opgelost waar de server het wachtwoord niet krijgt" />
+    <MESSAGE value="een bug opgelost" />
+    <MESSAGE value="Token kan nu gebruikt worden in lobbypagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Token kan nu gebruikt worden in lobbypagina" />
+  </component>
+</project>

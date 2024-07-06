@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url("../Image/chineeseTempel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    margin-top: 70px; /* Adjust this value to include the height of your nav plus the desired margin */
+}
+
+nav {
+    font-family: monospace;
+    color: white;
+    background-color: #333;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+nav h1 {
+    font-size: 28pt;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+nav ul {
+    margin-bottom: 20px;
+    font-size: 20pt;
+    list-style-type: none;
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Place items to the right of the nav element */
+}
+
+nav li {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+nav li a {
+    color: white;
+
+}
+
+.khalil, .Lieve, .Josephine, .Robbe {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+    float: left;
+}
+
+p {
+    color: #666;
+    margin-left: 125px;
+    text-align: justify;
+}
+
+.khalil::after, .Lieve::after, .Josephine::after, .Robbe::after {
+    content: "";
+    display: table;
+    clear: both;
+}
